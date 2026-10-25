@@ -1,0 +1,9 @@
+name: openmc-pincell
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11,<3.15
+  - openmc=0.16.0
+  - numpy
+  - pandas
+  - matplotlib

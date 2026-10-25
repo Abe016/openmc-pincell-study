@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OpenMC generated outputs
+*.h5
+model.xml
+materials.xml
+geometry.xml
+settings.xml
+tallies.xml
+plots.xml
+*.log
+*.out
+
+# Local test output
+test_runs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary sweep results
+test_sweep_runs/
+
+# Downloaded archives
+*.zip
